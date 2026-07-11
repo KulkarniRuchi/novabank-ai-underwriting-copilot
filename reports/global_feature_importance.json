@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "num__credit_score",
+    "mean_abs_shap": 0.7344
+  },
+  {
+    "feature": "num__income_volatility",
+    "mean_abs_shap": 0.6226
+  },
+  {
+    "feature": "num__emi_to_income_ratio",
+    "mean_abs_shap": 0.5816
+  },
+  {
+    "feature": "num__bank_relationship_years",
+    "mean_abs_shap": 0.5426
+  },
+  {
+    "feature": "num__debt_burden_score",
+    "mean_abs_shap": 0.4231
+  },
+  {
+    "feature": "num__credit_history_length_years",
+    "mean_abs_shap": 0.4028
+  },
+  {
+    "feature": "num__credit_maturity_score",
+    "mean_abs_shap": 0.3134
+  },
+  {
+    "feature": "num__job_switches",
+    "mean_abs_shap": 0.2283
+  },
+  {
+    "feature": "num__loan_amount_to_salary_multiple",
+    "mean_abs_shap": 0.2234
+  },
+  {
+    "feature": "num__credit_utilization_ratio",
+    "mean_abs_shap": 0.2044
+  },
+  {
+    "feature": "num__past_defaults",
+    "mean_abs_shap": 0.2038
+  },
+  {
+    "feature": "num__existing_loans_count",
+    "mean_abs_shap": 0.2031
+  },
+  {
+    "feature": "num__loan_to_income_ratio",
+    "mean_abs_shap": 0.2019
+  },
+  {
+    "feature": "num__income_stability_score",
+    "mean_abs_shap": 0.1936
+  },
+  {
+    "feature": "num__total_debt_to_income_ratio",
+    "mean_abs_shap": 0.1926
+  }
+]

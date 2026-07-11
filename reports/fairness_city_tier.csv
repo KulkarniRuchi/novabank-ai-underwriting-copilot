@@ -1,0 +1,4 @@
+city_tier,n,actual_default_rate,avg_predicted_pd,approval_rate,decline_rate,fpr,tpr_recall
+Tier-2,826,0.0969,0.2849,0.3559,0.4201,0.1796,0.85
+Tier-1,669,0.1016,0.2805,0.3931,0.4036,0.1697,0.8382
+Tier-3,505,0.0733,0.2742,0.3782,0.3901,0.1603,0.9189

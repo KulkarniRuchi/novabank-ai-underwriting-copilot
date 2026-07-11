@@ -1,0 +1,88 @@
+{
+  "gender": {
+    "metrics": [
+      {
+        "gender": "Male",
+        "n": 1154,
+        "actual_default_rate": 0.0893,
+        "avg_predicted_pd": 0.2831,
+        "approval_rate": 0.3518,
+        "decline_rate": 0.4099,
+        "fpr": 0.1779,
+        "tpr_recall": 0.8447
+      },
+      {
+        "gender": "Female",
+        "n": 805,
+        "actual_default_rate": 0.0969,
+        "avg_predicted_pd": 0.2765,
+        "approval_rate": 0.405,
+        "decline_rate": 0.4012,
+        "fpr": 0.1596,
+        "tpr_recall": 0.8718
+      },
+      {
+        "gender": "Other",
+        "n": 41,
+        "actual_default_rate": 0.0976,
+        "avg_predicted_pd": 0.2987,
+        "approval_rate": 0.3902,
+        "decline_rate": 0.439,
+        "fpr": 0.2162,
+        "tpr_recall": 1.0
+      }
+    ],
+    "four_fifths_rule": {
+      "applicable": true,
+      "impact_ratio": 0.8686,
+      "passes_four_fifths_rule": true,
+      "lowest_approval_group": "Male",
+      "lowest_approval_rate": 0.3518,
+      "highest_approval_group": "Female",
+      "highest_approval_rate": 0.405
+    }
+  },
+  "city_tier": {
+    "metrics": [
+      {
+        "city_tier": "Tier-2",
+        "n": 826,
+        "actual_default_rate": 0.0969,
+        "avg_predicted_pd": 0.2849,
+        "approval_rate": 0.3559,
+        "decline_rate": 0.4201,
+        "fpr": 0.1796,
+        "tpr_recall": 0.85
+      },
+      {
+        "city_tier": "Tier-1",
+        "n": 669,
+        "actual_default_rate": 0.1016,
+        "avg_predicted_pd": 0.2805,
+        "approval_rate": 0.3931,
+        "decline_rate": 0.4036,
+        "fpr": 0.1697,
+        "tpr_recall": 0.8382
+      },
+      {
+        "city_tier": "Tier-3",
+        "n": 505,
+        "actual_default_rate": 0.0733,
+        "avg_predicted_pd": 0.2742,
+        "approval_rate": 0.3782,
+        "decline_rate": 0.3901,
+        "fpr": 0.1603,
+        "tpr_recall": 0.9189
+      }
+    ],
+    "four_fifths_rule": {
+      "applicable": true,
+      "impact_ratio": 0.9054,
+      "passes_four_fifths_rule": true,
+      "lowest_approval_group": "Tier-2",
+      "lowest_approval_rate": 0.3559,
+      "highest_approval_group": "Tier-1",
+      "highest_approval_rate": 0.3931
+    }
+  }
+}
