@@ -26,7 +26,7 @@ Loan Default Prediction Model (Logistic Regression / Random Forest / XGBoost)
 SHAP Explainability (global + per-customer)
         │
         ▼
-AI Underwriting Copilot (Claude-generated officer report, with rule-based fallback)
+AI Underwriting Copilot (report, with rule-based fallback)
 ```
 
 ## Project Structure
